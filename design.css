@@ -1,0 +1,77 @@
+header{
+    text-align: right;
+    color: black;
+    background-color: #ffca08;
+}
+.others{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    text-decoration-line:none;
+}
+.bg{
+    position: absolute;
+}
+body{
+    font-family: serif;
+    background-image: linear-gradient(#ffca08 50%, white);
+}
+.about-us{
+    color:black;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    text-decoration-color: black;
+}
+.col-md-3{
+    position:fixed;
+    z-index:1;
+}
+.col-mid-9{position:relative; z-index:2; margin:100% 0 0;}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: black;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: grab;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+}
+.hr{
+    height: 6px;
+    color: black;
+}
+.col-md-2{
+    position: relative;
+    z-index: 1;
+    background-color:chartreuse;
+    color:black ;
+    border-color: black;
+    height:fit-content;
+    border: 4px solid;
+    border-radius: 10px;
+}
+a.col-md-2{
+    text-decoration: none;
+    color: white;
+}
+a.col-md-2:hover{
+    text-decoration: none;
+    text-decoration-line:none;
+}

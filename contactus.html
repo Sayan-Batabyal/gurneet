@@ -1,0 +1,100 @@
+<html>
+    <title>
+        Home Page
+    </title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <link rel="stylesheet" type="text/css" href="contact.css"
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+    rel="stylesheet"/>
+ <head>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <header>
+            <h1 style="text-align: center;">LEARN HTML EASY WAY</h1>
+            <div class="others">
+                <a href="index.html"><button type="button" class="btn btn-primary">Home</button></a>
+                <a href="getstarted.html"><button type="button" class="btn btn-danger">Get Started</button></a>
+                <a href="pricing.html"><button type="button" class="btn btn-info">Pricing</button></a>
+                <a href="index.html"><button type="button" class="btn btn-normal">GO BACK</button></a>
+                <a href="login.html"><button type="button" class="btn btn-secondary">Login/Sign-Up</button></a>
+            </div> <br><br>
+        </header>
+        <table align=center style="text-align: center; border: 5px black solid;border-radius: 15px 50px;">
+            <thead style="font-size: 25px;">
+                <td colspan="4"><u>Want to contact us for Business or Course or Price related Issues ? Well , now you can !!</u></td>
+            </thead>
+            <tr>
+                <td colspan="2" class="emaildetails">
+                    Drop you email here and issue here ::                    
+                </td>
+                <td rowspan="4" style="padding:10px 20px 10px 20px;">
+                    Contact us through Social Media : 
+                    <br><br>
+                    <a href="#!"><img src="images/fb.png" height=50px ></a>/htmlgeeks<br>
+                    <a href="#!"><img src="images/yt.png" height=50px ></a>/HTMLforGEEKS<br>
+                    <a href="#!"><img src="images/twitter.png" height=50px ></a>/htmlgeeks<br>
+                    <a href="#!"><img src="images/insta.png" height=50px ></a>/html_geeks<br>
+                </td>
+                <td rowspan="4">
+                    Or you can call us at these number ::<br>
+                    <br>
+                    India : <b>+91-5559998887</b><br>
+                    Foreign : <b>+91-4487778895</b><br>
+                    Toll Free : <b>11558-84459</b><br>
+                    Landline : <b>1894-44556987</b><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Email : </td>
+                <td  class="emaildetails"><input type="email" id="email" name="email" required placeholder="abc@xyz.in"><br></td>
+                
+            </tr>
+            <tr>
+                <td>
+                    Issues/Comments/Queries : 
+                </td>
+                <td  class="emaildetails">
+                    <input type="text" required id="feedback" placeholder="Enter here" style="height: 150px;" maxlength="500"><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a onclick="gurneet()"><button type="button" class="btn btn-danger">SUBMIT</button></a>
+                </td>
+            </tr>
+        </table>
+        <hr style="color: black;height: 6px;">
+        <footer>
+                Copyright © 2021 by <b onclick="popup()"><u>Gurneet Singh</u></b> Contact and follow on <br>
+                <a href="#!"><img src="images/fb.png" height=50px style="padding-right:50px"></a>
+                <a href="#!"><img src="images/yt.png" height=50px style="padding-right:50px"></a>
+                <a href="#!"><img src="images/twitter.png" height=50px style="padding-right:50px"></a>
+                <a href="#!"><img src="images/insta.png" height=50px style="padding-right:50px"></a>
+        </footer>
+        <hr style="color: black;height: 6px;">
+        </div>
+    <!---This is the script to be used-->   
+        <script>
+            function popup(){
+                alert("Thank you for using the website !");
+            }
+            function gurneet(){
+                document.getElementById("email").value="Email Recorded";
+                document.getElementById("feedback").value="Feedback Recorded";
+                alert("Your respons has been recorded !! We will get in contact with you soon !! Thank You !!");
+            }
+            </script>
+    </body>
+</html>
